@@ -64,5 +64,7 @@ m.get('Adam'); // 67
 m.delete('Adam'); // 删除key 'Adam'
 m.get('Adam'); // undefined
 
+var PI=3.14 //通常用全部大写的变量来表示一个常量
 const pi=3.14;
-console.log(pai = 301415926);;
+//pi = 301415926;
+console.log(pi);;

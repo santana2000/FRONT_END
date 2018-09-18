@@ -47,7 +47,7 @@ var name='haiwai';
 var age=15;
 var school='cumt';
 var info=`名字是${name},今年${age}岁,在${school}上学`;
-var info2=`名字是+name+,今年+age+岁,在+school+上学`;
+
 console.log(info,info2);
 
 
