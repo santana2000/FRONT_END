@@ -36,7 +36,6 @@ var sss = arr.filter(function (s) {   // filter根据回掉函数的返回值是
     return s && s.trim(); // 这里是判断条件
 });
 
-
 var  r='9';
 var  rr=r-0;
 console.log(rr + typeof rr);
