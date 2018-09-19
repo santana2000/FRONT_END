@@ -6,10 +6,7 @@ s=[['xiaoming',18],['xiaoli',17],['xiaozhang',16]];
 for (x of s){
     console.log(x);
 }
-ss=[11,12,12];
-for (x of ss){
-    console.log(x);
-}
+
 
 var a=['a','b','c'];
 a.name='hh';
@@ -18,6 +15,11 @@ console.log(a);
 for (x in a){
     console.log(x);
 }
+for (x of a){      //of只遍历数组自身的元素
+    console.log(x);
+}
+
+
 
 qqq.forEach(function (x,y,z) {     //回调函数
     // map   ----key/value/map
