@@ -19,9 +19,11 @@ function multiple(a,b) {
 console.log(f);
 
 var m=qqq.reduce(INT);
+
 function INT(a,b) {
     return a*10+b;
 }
+
 console.log(m);
 
 //map + reduce 1.实现 string2int 功能，先用split分割字符串
@@ -34,10 +36,9 @@ var sss = arr.filter(function (s) {   // filter根据回掉函数的返回值是
     return s && s.trim(); // 这里是判断条件
 });
 
-
 var  r='9';
 var  rr=r-0;
-console.log(rr);
+console.log(rr + typeof rr);
 
 //sort() 先把元素转化为字符串再排序
 //设置比较函数进一步细化比较规则
