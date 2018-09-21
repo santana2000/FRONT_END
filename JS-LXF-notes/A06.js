@@ -17,21 +17,6 @@ console.log(f());
 
 console.log(lazy_sum([1, 2, 3, 4, 5])());
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //argument实参  parameter 形参
 
 function* fib(max){
@@ -55,7 +40,7 @@ var k=fib(6);
 console.log(k.next());
 
 
-//对象类型   typeof
+//对象类型  用typeof操作符获取对象的类型，它总是返回一个字符串
 console.log(typeof 'str');
 console.log(typeof 123);
 console.log(typeof NaN);
@@ -66,19 +51,14 @@ console.log(typeof null);
 console.log(typeof {});
 console.log(typeof Math.abs);
 
+// 注意null的类型是object，Array的类型也是object
 
-/*
-    正则表达式
-    \d----数字
-    \w----数字/字符
-    \s----空格
-    * ----任意字符
-    {n}---n个字符
-    + ----至少一个字符
-    ? ----0个或者一个字符
-*/
-//  带区号电话匹配
-var RegExp=/\d{3}\s+\d{3,8}/;  //这种写法无需转义
-RegExp.test('010 35684');      //test()方法
-                               //exec()方法
+// 用parseInt()或parseFloat()来转换任意类型到number；
+
+// 用String()来转换任意类型到string，或者直接调用某个对象的toString()方法；
+
+// 通常不必把任意类型转换为boolean再判断，因为可以直接写if (myVar) {...}；
+
+
+
 
