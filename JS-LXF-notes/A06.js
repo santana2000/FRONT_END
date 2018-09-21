@@ -1,5 +1,37 @@
 //第五天
-//----
+//----闭包   一种环境 绑定了变量
+//内部函数sum可以引用外部函数lazy_sum的参数和局部变量
+// 当lazy_sum返回函数sum时，
+// 相关参数和变量都保存在返回的函数中
+
+function lazy_sum(arr) {
+    var sum = function () {
+        return arr.reduce(function (x, y) {
+            return x + y;
+        });
+    }
+    return sum;
+}
+var f = lazy_sum([1, 2, 3, 4, 5]);
+console.log(f());
+
+console.log(lazy_sum([1, 2, 3, 4, 5])());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //argument实参  parameter 形参
 
 function* fib(max){
@@ -17,7 +49,7 @@ function* fib(max){
 }
 
 fib(6);
-//console.log(fib(6));
+console.log(fib(6));
 
 var k=fib(6);
 console.log(k.next());

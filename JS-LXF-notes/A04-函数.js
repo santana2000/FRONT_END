@@ -2,11 +2,11 @@
 
 //iterable //es6   迭代 ---- arr/set/map
 var x;
-s=[['xiaoming',18],['xiaoli',17],['xiaozhang',16]];
+var s=[['xiaoming',18],['xiaoli',17],['xiaozhang',16]];
 for (x of s){
     console.log(x);
 }
-ss=[11,12,12];
+var ss=[11,12,12];
 for (x of ss){
     console.log(x);
 }

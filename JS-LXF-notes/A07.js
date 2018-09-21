@@ -24,7 +24,7 @@ var s=createJUGG('atong');
     s.get$();
 
 
-/* window --- 全局作用域&浏览器窗口
+/* window --- 全局作用域 &浏览器窗口
       |---innerHeight
       |---innerWidth
    screen --- 屏幕大小 (固定)
