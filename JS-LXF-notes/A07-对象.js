@@ -44,13 +44,16 @@ var xiaoming = {
     height: 1.65,
     grade: null,
     'middle-school': '\"W3C\" Middle School',
-    skills: ['JavaScript', 'Java', 'Python', 'Lisp']
+    skills: ['JavaScript', 'Java', 'Python', 'Lisp'],
+    mee:function () {
+        return 5;
+    }
 };
 
  //var xiaomin = JSON.stringify(xiaoming, null, '  ');  // 只要加参数就缩进
                                        // 第二个参数控制筛选的键值
 
-var xiaomin = JSON.stringify(xiaoming, convert, '  ');  // 还可传入函数
+var xiaomin = JSON.stringify(xiaoming, convert, ' ');  // 还可传入函数
 
 function convert(key,value) {
     if (typeof value === 'string'&& key==='name') {     // key只能做判断条件，只返回更改后的value
