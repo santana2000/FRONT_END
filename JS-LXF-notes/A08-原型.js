@@ -34,7 +34,7 @@ function Dotahero(name) {
 
 }
 
-var hero = new Dotahero(PA);
+var hero = new Dotahero('PA');
 hero.getMoney();
 console.log(hero);
 
