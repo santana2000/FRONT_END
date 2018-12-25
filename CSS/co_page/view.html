@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>原型系统</title>
+    <link href="https://cdn.bootcss.com/normalize/8.0.1/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://js.arcgis.com/4.10/esri/css/main.css">
+    <script src="https://js.arcgis.com/4.10/"></script>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+
+
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="name">
+            <h1>Muti-view Real-time Collaborative GIS</h1>
+        </div>
+        <div class="type clearx">
+            <div class="lview">公有视图</div>
+            <div class="rview">私有视图</div>
+        </div>
+    </div>
+    <div class="menu clearx">
+        <div class="lmenu">
+            <span class="func first" >公有转私有</span>
+            <span class="func">基础操作
+                <ul class="next">
+                    <li>放大</li>
+                    <li>缩小</li>
+                    <li>漫游</li>
+                </ul>
+            </span>
+            <span class="func">空间查询</span>
+        </div>
+        <div class="rmenu">
+            <span class="func first">私有转公有</span>
+            <span class="func">注记操作</span>
+            <span class="func">量算操作</span>
+            <span class="func">空间查询</span>
+            <span class="func">空间分析</span>
+            <span class="func">编辑操作</span>
+        </div>
+    </div>
+    <div class="maps clearx">
+        <div id="lmap"> </div>
+        <div id="rmap"> </div>
+        <div class="side">私有操作信息区</div>
+    </div>
+    <div class="message clearx">
+        <div class="user">
+            在线用户：<br>客户端0<br>客户端1<br>
+        </div>
+        <div class="send">
+            <textarea style="font-size: 15px">实时会话：</textarea>
+            <input><button  >send </button>
+        </div>
+        <div class="mes">协同操作信息：<br></div>
+    </div>
+</div>
+</body>
+</html>

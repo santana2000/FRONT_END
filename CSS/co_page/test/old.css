@@ -1,0 +1,107 @@
+html,body{
+    border: burlywood 2px solid;
+}
+div{
+    box-sizing: border-box;
+}
+
+.clearx:after{
+    display:block;
+    clear:both;content:"";
+    visibility:hidden;
+    height:0
+}
+.header{
+    background-color: darkgray;
+}
+.name{
+    text-align: center;
+    margin: 0 0 5px 0;
+    padding: 10px;
+    border: aquamarine 1px solid;
+
+}
+.type,
+.menu{
+    border: brown 1px solid;
+    height: 30px;
+}
+.lview,
+.rview{
+    text-align: center;
+    width: 50%;
+    border: blue 1px solid;
+    /*box-sizing: border-box;*/
+
+
+}
+.lview{
+    float: left;
+}
+.rview{
+    float: right;
+}
+
+.lmenu,
+.rmenu{
+    width: 50%;
+    border: blue 1px solid;
+    /*box-sizing: border-box;*/
+}
+
+
+.lmenu{
+    float: left;
+}
+.rmenu{
+    float: right;
+    width: 50%;
+
+
+}
+.maps{
+    height: 600px;
+    background-color: darkgray;
+    border: blueviolet 2px solid;
+}
+
+.lmap,
+.rmap,
+.side{
+    border: burlywood 1px solid;
+}
+.lmap{
+    width: 43%;
+    background-color: cadetblue;
+    float: left;
+}
+.rmap{
+    width: 43%;
+    background-color: blueviolet;
+    float: left;
+
+}
+.side{
+    width: 14%;
+    float: right;
+}
+.message{
+    border: cadetblue 1px solid;
+}
+.user{
+    border: blueviolet 1px solid;
+    float: left;
+    width: 20%;
+}
+.send{
+    border: blue 1px solid;
+    float: left;
+    width: 60%;
+
+}
+.mes{
+    border: #ff6879 1px solid;
+    float: right;
+    width: 20%;
+
+}

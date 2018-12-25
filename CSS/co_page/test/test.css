@@ -1,0 +1,23 @@
+.container{
+
+    background-color: aquamarine;
+    border: blue 2px solid;
+    height: 500px;
+}
+.left{
+    width: 50%;
+    float: left;
+    height: 100px;
+    background-color: darkgray;
+    border: brown 1px solid;
+    box-sizing: border-box;
+}
+.right{
+    width: 50%;
+    float: right;
+    height: 100px;
+    background-color: burlywood;
+    border: brown 1px solid;
+    box-sizing: border-box;
+
+}

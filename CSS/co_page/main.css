@@ -1,0 +1,189 @@
+html,body{
+    border: rgba(231, 234, 237, 0.56) 2px solid;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+.clearx:after{
+    display:block;
+    clear:both;content:"";
+    visibility:hidden;
+    height:0
+}
+.header{
+    background-color: #ffffff;
+}
+.name{
+    /*text-align: center;*/
+    margin: 0 0 0 0;
+    padding: 10px;
+    border: #000000 1px solid;
+    background-color:#0079c1c2
+
+}
+h1{
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+.func{
+    padding: 0 3px;
+    margin-right: 10px;
+    background-color: rgba(255, 104, 121, 0.93);
+    border-radius: 2px;
+}
+.first{
+    margin-left: 10px;
+}
+.type,
+.menu{
+    /*border: #000000 1px solid;*/
+
+}
+.lview,
+.rview{
+    text-align: center;
+    border: #000000 1px solid;
+    /*box-sizing: border-box;*/
+    padding: 3px 0;
+
+
+}
+.lview{
+    float: left;
+    width: 43%;
+
+}
+.rview{
+    float: right;
+    width: 57%;
+    padding-right: 230px;
+
+}
+
+.lmenu,
+.rmenu{
+    width: 43%;
+    border: #000000 1px solid;
+    padding: 3px 0;
+
+    /*box-sizing: border-box;*/
+}
+
+
+.lmenu{
+    float: left;
+}
+.menu{
+    font-size: 16px;
+
+}
+.next{
+    list-style: none;
+    display: none;
+    z-index: 2;
+
+}
+.func{
+    display: inline-block;
+    position: relative;
+}
+.func:hover .next{
+    display: block;
+    background-color: rgba(180, 174, 175, 0.27);
+    box-shadow: white;
+    border-radius: 4px;
+    position: absolute;
+    top: 10px;
+    padding: 10px 10px;
+
+}
+li{
+    padding: 3px;
+    text-align: center;
+}
+.rmenu{
+    float: right;
+    width: 57%;
+
+
+}
+.maps{
+    background-color: #ffffff;
+    /*border: #000000 1px solid;*/
+}
+
+#lmap,
+#rmap,
+.side{
+    border: #000000 1px solid;
+}
+#lmap{
+    width: 43%;
+    height: 500px;
+    /*background-color: cadetblue;*/
+    float: left;
+}
+#rmap{
+    width: 43%;
+    /*background-color: #f6cf98;*/
+    float: left;
+    height: 500px;
+
+
+}
+.side{
+    width: 14%;
+    float: right;
+    height: 500px;
+    font-size: 15px;
+}
+.message{
+    /*border: #000000 1px solid;*/
+}
+.user{
+    border: #000000 1px solid;
+    float: left;
+    width: 20%;
+    height: 100px;
+    font-size: 15px;
+
+}
+.send{
+    border: #000000 1px solid;
+    float: left;
+    width: 40%;
+    height: 100px;
+
+
+}
+.mes{
+    border: #000000 1px solid;
+    float: right;
+    width: 40%;
+    height: 100px;
+    font-size: 15px;
+
+
+}
+textarea{
+    width: 99%;
+    display: block;
+    height: 65px;
+}
+input{
+    display: inline-block;
+    width: 90%;
+    box-sizing: border-box;
+
+}
+button{
+    display: inline-block;
+    width: 10%;
+    /*border: 1px black solid;*/
+    box-sizing: border-box;
+    padding: 1px 0;
+
+}
