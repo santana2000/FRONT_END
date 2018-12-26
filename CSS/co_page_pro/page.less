@@ -1,0 +1,89 @@
+@bgColor: #af3751;
+@fsize: 18px;
+@height:500px;
+@length:50%;
+
+.border{
+    border: #000011 1px solid;
+}
+
+
+.clearx:after{
+    display:block;
+    clear:both;
+    content:"";
+    visibility:hidden;
+    height:0
+}
+//=====================page=========================
+
+
+
+html,body{
+}
+
+div{
+    box-sizing: border-box;
+    .border
+}
+
+.container{
+    //height: 500px;
+
+}
+
+.header{
+    font-size: @fsize * 1.2;
+
+}
+
+.main{
+    border:none;
+
+}
+
+.left,
+.right{
+    width: @length;
+    height: @height;
+    text-align: center;
+
+}
+//=====================左边=========================
+.left{
+    background-color: rgba(26, 120, 203, 0.98);
+    float: left;
+}
+
+span{
+    display: inline-block;
+}
+
+.xx{
+    position: relative;
+}
+
+.next{
+    display: none;
+}
+
+.xx:hover .next{
+    display: block;
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    padding: 5px 2px;
+    text-align: center;
+    background-color: rgba(24, 91, 83, 0.22);
+}
+//=====================右边=========================
+.right{
+    background-color: @bgColor;
+    float: right;
+}
+
+//=====================底部=========================
+.footer{
+    height: @height / 2;
+    .border
+}
