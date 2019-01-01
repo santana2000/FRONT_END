@@ -1,0 +1,29 @@
+/*   1. float + margin-right
+.left{
+    background-color: #e69513;
+    width: 300px;
+    float: left;
+}
+
+.right{
+    background-color: #ff6879;
+    margin-left: 320px;
+}*/
+
+
+.content{
+    background-color: aliceblue;
+    position: relative;
+    height: 600px;
+}
+.left{
+    position: absolute;
+    background-color: #ff6879;
+    width: 300px;
+}
+.right{
+    position: absolute;
+    left: 310px;
+    background-color: cadetblue;
+    right: 10px;
+}

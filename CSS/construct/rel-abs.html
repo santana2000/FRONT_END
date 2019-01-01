@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #81d6d2;
+        }
+        .box{
+            width: 600px;
+            height: 200px;
+            margin: 50px;
+            background-color: #d6f5c3;
+            font-size: 0;
+            -webkit-text-size-adjust:none;
+            position: relative;
+        }
+
+        .box-item{
+            font-size: 14px;
+            background-color: darkorange;
+            width: 100px;
+            height:100px;
+            text-align: center;
+            line-height: 100px;
+            display: inline-block;
+        }
+        .relative{
+            position:relative;
+            /*position:absolute;*/
+            top:20px;
+            left:20px;
+            background-color: lightcoral;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="box-item">box-item1</div>
+    <div class="box-item relative">box-item2</div>
+    <div class="box-item">box-item3</div>
+</div>
+<p>relative并未脱离文档流，因为原来的位置还空在那里</p>
+<p>absolute脱离了文档流，原来的位置被后面的元素补上来了</p>
+<p>圣杯可以用relative是因为left是把main盖住了,
+    移走之后原位置变为透明的,main可以正常显示了。
+    如果left和main是并列放置的话,就会产生影响
+</p>
+<p>left和right都可以用,以新位置为基准,
+    计算原来位置在新位置的哪个方向以及距离</p>
+</body>
+</html>
