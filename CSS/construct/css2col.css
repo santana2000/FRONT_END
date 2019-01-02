@@ -1,16 +1,18 @@
-/*   1. float + margin-right
+   /*1. float + margin-right*/
 .left{
     background-color: #e69513;
     width: 300px;
+    /*width: 30%;  左右两边都弹性*/
     float: left;
 }
 
 .right{
     background-color: #ff6879;
     margin-left: 320px;
-}*/
+}
 
 
+/*    2. position设置absolute
 .content{
     background-color: aliceblue;
     position: relative;
@@ -27,3 +29,4 @@
     background-color: cadetblue;
     right: 10px;
 }
+*/
