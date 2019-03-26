@@ -1,0 +1,128 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.1);
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.clearf:after{
+    content: '';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+header{
+    position: relative;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+input{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    line-height: 25px;
+}
+#bgpic{
+    width: 100%;
+    height: 300px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.func{
+    display: flex;
+    flex: 1;
+    text-align: center;
+    padding-left: 3%;
+    line-height: 50px;
+}
+.AS,
+.BC,
+.D,
+footer{
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.A{
+    flex: 2.5;
+    height: 200px;
+}
+
+.students{
+    display: flex;
+    flex-wrap: wrap;
+}
+.stu{
+    width: 50%;
+    height: 50px;
+}
+.S{
+    flex: 1;
+    height: 200px;
+
+}
+
+.B,
+.C{
+    flex: 1;
+
+}
+
+.zhuanlan{
+    /*display: flex;*/
+    flex: 1;
+    height: 200px;
+
+}
+.zimg{
+    margin-left: 12%;
+}
+.zzz{
+    margin-top: 5px;
+    text-align: center;
+}
+
+footer{
+    padding: 20px;
+}
+
+.links{
+    flex: 2;
+}
+.codes{
+    flex: 1;
+}
