@@ -126,3 +126,7 @@ footer{
 .codes{
     flex: 1;
 }
+.wechat{
+    width: 150px;
+    height: 150px;
+}
