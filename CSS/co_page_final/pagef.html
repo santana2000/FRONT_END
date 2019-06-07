@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Prototype System</title>
+    <link href="https://cdn.bootcss.com/normalize/8.0.1/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://js.arcgis.com/4.3/esri/css/main.css">
+    <link rel="stylesheet" href="pagef.css">
+    <script src="https://js.arcgis.com/4.3/"></script>
+    <script src="pagef.js"></script>
+
+
+
+
+</head>
+<body>
+<div class="container">
+
+    <div class="header">
+        <div class="name">
+            <img class="icon" src="./images/icon.png" alt="icon">
+            <p>Muti-view Real-time Collaborative GIS</p>
+        </div>
+
+    </div>
+    <div class="type clearx">
+        <div class="lview">Public View</div>
+        <div class="rview">Private View</div>
+    </div>
+
+    <div class="menu clearx">
+        <div class="lmenu">
+            <span class="func first" >Public View to Private View</span>
+            <span class="func">Basic Operation
+                <ul class="next">
+                    <li>Zoom In</li>
+                    <li>Zoom Out</li>
+                    <li>Pan</li>
+                    <li>ViewEntire</li>
+                </ul>
+            </span>
+            <span class="func">Spatial Query</span>
+        </div>
+        <div class="rmenu">
+            <span class="func first">Private View to Public View</span>
+            <span class="func">Map Annotation</span>
+
+            <span class="func">Spatial Query</span>
+            <span class="func">Spatial Analysis</span>
+            <span class="func">Map Edit</span>
+        </div>
+    </div>
+
+    <div class="maps clearx">
+        <div id="lmap"> </div>
+        <div id="rmap"> </div>
+        <div class="side">Users Online:
+            <br>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  —— Client:A
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  —— Client:B
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  —— Client:C
+        </div>
+    </div>
+    <div class="message clearx">
+        <!--<div class="user">-->
+        <!--Users Online：<br>客户端0<br>客户端1<br>-->
+        <!--</div>-->
+        <div class="send">
+            <textarea style="font-size: 15px">Real-time Session:</textarea>
+            <input><button>send </button>
+        </div>
+        <div id="mes" class="mes">Instant Message:<br></div>
+    </div>
+
+
+
+</div>
+</body>
+</html>
