@@ -13,7 +13,7 @@ require([
         container: "lmap",  // Reference to the scene div created in step 5
         map: map1,  // Reference to the map object created before the scene
         zoom: 7,  // Sets zoom level based on level of detail (LOD)
-        center: [112.5, 37.8]  // Sets center point of view using longitude,latitude
+        center: [112.5,34.2302]  // Sets center point of view using longitude,latitude
     });
 
 
