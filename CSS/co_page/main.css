@@ -135,6 +135,9 @@ li{
 
 
 }
+. anchorBL{
+    display: none;
+}
 .side{
     width: 14%;
     float: right;
